@@ -1,0 +1,17 @@
+<?php
+
+$produto = [
+    "nome" => "Notebook",
+    "preco" => 3500.00,
+    "estoque" => 15
+];
+
+echo "O produto {$produto['nome']} custa R$ {$produto['preco']} e possui {$produto['estoque']} unidades.";
+
+$produto["preco"] = $produto["preco"] * 0.90;
+
+$produto["marca"] = "TechCorp";
+
+print_r($produto);
+
+?>
