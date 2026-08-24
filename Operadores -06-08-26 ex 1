@@ -1,0 +1,12 @@
+<?php
+
+$numero1 = 20;
+$numero2 = 5;
+
+echo "Soma: " . ($numero1 + $numero2) . "<\n>";
+echo "Subtração: " . ($numero1 - $numero2) . "<\n>";
+echo "Multiplicação: " . ($numero1 * $numero2) . "<\n>";
+echo "Divisão: " . ($numero1 / $numero2) . "<\n>";
+echo "Resto: " . ($numero1 % $numero2);
+
+?>
