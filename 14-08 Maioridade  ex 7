@@ -1,0 +1,13 @@
+<?php
+function verificarMaioridade($anoNascimento) {
+    $idade = 2026 - $anoNascimento;
+
+    if ($idade >= 18) {
+        return "Acesso Permitido";
+    } else {
+        return "Acesso Negado";
+    }
+}
+
+echo verificarMaioridade(2005);
+?>
